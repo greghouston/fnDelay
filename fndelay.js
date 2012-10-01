@@ -37,7 +37,9 @@
 
 var FnDelay = me.plugin.Base.extend({ 
     init: function() {
-        this.version = 1.0;
+        
+        // minimum required vesion of MelonJS
+        this.version = "0.9.5";
         
         this.step = 1000 / me.sys.fps;
         this.start = me.timer.getTime();
