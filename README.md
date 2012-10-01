@@ -9,27 +9,33 @@ fnDelay is licensed under the [MIT License](http://www.opensource.org/licenses/m
 About fnDelay
 -------------------------------------------------------------------------------
 
-fnDelay allows you to delay a function in MelonJS using the game logic timer.
+fnDelay allows you to delay a function in [MelonJS](https://github.com/obiot/melonJS) using the game logic timer.
 
 - If the game is paused, the timer is paused.
 - If the game timer is sped up or slowed down fnDelay will remain in sync with the game speed.
 - Functions can be set to repeat a specific number of times. By default they run once after the delay.
-- For functions that are repeated you can make the first instance fire immediately
+- For functions that are repeated you can make the first instance fire immediately.
 
 Register fnDelay
 -------------------------------------------------------------------------------
 
 To register this plugin:
-`me.plugin.register(FnDelay, "fnDelay");
+```javascript
+me.plugin.register(FnDelay, "fnDelay");
+```
 
 Syntax
 -------------------------------------------------------------------------------
 
-`me.plugin.fnDelay.add(fn, delay); 
+```javascript
+me.plugin.fnDelay.add(fn, delay); 
+```
    
 Or:    
 
-`me.plugin.fnDelay.add(fn, delay, settings);
+```javascript
+me.plugin.fnDelay.add(fn, delay, settings);
+```
 
 Example
 -------------------------------------------------------------------------------
