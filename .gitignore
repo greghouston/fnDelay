@@ -1,0 +1,18 @@
+#eclipse files
+.project
+.settings
+
+# temp files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# project specific ignore
+add-on/
+node_modules/
+build/*
+docs/*
+!.placeholder
+
+# Vim swap files
+*.sw*
