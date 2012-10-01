@@ -49,6 +49,7 @@ var FnDelay = me.plugin.Base.extend({
         });
         
         // probably isn't necessary to reset this again here
+        // but playing it safe
         me.plugin.patch(me.ScreenObject, "destroy", function () {
             me.plugin.fnDelay.timers = [];
             this.parent();   

@@ -19,7 +19,7 @@ fnDelay allows you to delay a function in [MelonJS](https://github.com/obiot/mel
 Register fnDelay
 -------------------------------------------------------------------------------
 
-To register this plugin:
+To register the plugin:
 ```javascript
 me.plugin.register(FnDelay, "fnDelay");
 ```
