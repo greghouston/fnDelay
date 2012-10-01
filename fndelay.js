@@ -89,7 +89,7 @@ var FnDelay = me.plugin.Base.extend({
     add: function(fn, delay, settings) {
         if (!settings) settings = {};
         
-        settings.count = settings.count ? settings.count : 1
+        settings.count = settings.count ? settings.count : 1;
         
         if (settings.firstNow) {      
             fn.apply(null, settings.args);
