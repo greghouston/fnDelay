@@ -45,9 +45,9 @@ me.plugin.fnDelay.add(jsApp.addEnemy, 500, {
     args: [type, spawnPoint, exitPoint],
     // count is the number of times to repeat the function; defaults to 1
     count: 3,
-    // Setting firstNow to true will run the function the first time without a delay; defaults to false 
+    // setting firstNow to true will run the function the first time without a delay; defaults to false 
     firstNow: true, 
-    // onComplete is fired after function has been repeated the number of times in count
+    // onComplete is fired after the function has been repeated the number of times in count
     onComplete: function(){ jsApp.nextWaveGroup(); } 
 });
 ```

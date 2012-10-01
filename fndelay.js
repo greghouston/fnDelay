@@ -13,7 +13,7 @@
  * If the game is paused, the timer is paused.
  * If the game timer is sped up or slowed down fnDelay will remain in sync with the game speed.
  * 
- * To register this plugin:
+ * To register the plugin:
  * me.plugin.register(FnDelay, "fnDelay");
  *  
  * @syntax:
@@ -27,9 +27,9 @@
  *     args: [type, spawnPoint, exitPoint],
  *     // count is the number of times to repeat the function; defaults to 1
  *     count: 3,
- *     // Setting firstNow to true will run the function the first time without a delay; defaults to false 
+ *     // setting firstNow to true will run the function the first time without a delay; defaults to false 
  *     firstNow: true, 
- *     // onComplete is fired after function has been repeated the number of times in count
+ *     // onComplete is fired after the function has been repeated the number of times in count
  *     onComplete: function(){ jsApp.nextWaveGroup(); } 
  * }); 
  *
