@@ -3,7 +3,7 @@
  * Copyright (C) 2012, Greg Houston
  * http://greghoustondesign.com
  *
- * The SetGameTimout Plugin is licensed under the MIT License.
+ * The fnDelay Plugin is licensed under the MIT License.
  * http://www.opensource.org/licenses/mit-license.php
  *
  */
